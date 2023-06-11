@@ -25,8 +25,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [github](https://github.com/MIU-cz/fem-stats-preview-card-component-main)
-- Live Site URL: [preview](https://miu-cz.github.io/fem-stats-preview-card-component-main)
+- Solution URL: [github](https://github.com/MIU-cz/fem-profile-card-component-main)
+- Live Site URL: [preview](https://miu-cz.github.io/fem-profile-card-component-main)
 
 ## My process
 
