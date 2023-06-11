@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import url(../resourse/normaliz-style-min.css);
+@import url(../resourse/fem-footer-style.css);
+
+// # Front-end Style Guide
+
+// ## Layout
+// The designs were created to the following widths:
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// ## Colors
+// ### Primary
+$color-Dark-cyan: hsl(185, 75%, 39%);
+$color-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$color-Dark-grayish-blue: hsl(227, 10%, 46%);
+
+// ### Neutral
+$color-Dark-gray: hsl(0, 0%, 59%);
+
+// ## Typography
+$font-size: 18px;
+
+// ### Font
+$font-family: "Kumbh Sans";
+$f-Weights4: 400;
+$f-Weights7: 700;
+
+// ## my Variables
+$card-w: 350px;
+$card-h: 375px;
+// ===========
+// ### Main styles
+body {
+	background-color: $color-Dark-cyan;
+	font-family: $font-family;
+	font-size: $font-size;
+	color: $color-Dark-grayish-blue;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.conteiner-fluid {
+	width: 100%;
+	height: 100vh;
+
+	background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+	background-position: -45vw -45vh, 45vw 45vh;
+	background-size: 100% 100%, 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.card__conteiner {
+	width: $card-w;
+	height: $card-h;
+	background-color: white;
+	border-radius: 10px;
+	margin: auto 20px;
+
+	background-image: url(../images/bg-pattern-card.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+
+	// padding: 90px 45px 20px;
+}
+
+.card_picture {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid white;
+	margin: 90px auto 0;
+
+	& img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.card_name {
+	margin: 25px auto 0;
+	text-align: center;
+
+	.name {
+		font-weight: $f-Weights7;
+		color: $color-Very-dark-desaturated-blue;
+	}
+	.age {
+		color: $color-Dark-grayish-blue;
+	}
+}
+
+.city {
+	margin: 15px auto 0;
+	text-align: center;
+	font-weight: $f-Weights4;
+	font-size: $font-size - 2px;
+}

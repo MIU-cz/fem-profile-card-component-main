@@ -1,0 +1,23 @@
+/* ---footer--- */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+:root {
+	--my-link-color: #45818e;
+}
+
+.attribution {
+	width: 100%;
+	font-family: "Permanent Marker", cursive;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+	/* padding-bottom: 15px; */
+	/* margin: 20px 20px 0; */
+	padding: 20px 20px;
+
+	position: fixed;
+	bottom: 0;
+}
+
+.attribution a {
+	color: var(--my-link-color);
+}
